@@ -4,5 +4,7 @@
 /MyFunc/node_modules/*
 /MyPromise/build/*
 /MyPromise/node_modules/*
+/MyByteArray/build/*
+/MyByteArray/node_modules/*
 /build/*
 /node_modules/*
