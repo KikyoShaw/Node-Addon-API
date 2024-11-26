@@ -6,5 +6,7 @@
 /MyPromise/node_modules/*
 /MyByteArray/build/*
 /MyByteArray/node_modules/*
+/MyDemo/build/*
+/MyDemo/node_modules/*
 /build/*
 /node_modules/*
