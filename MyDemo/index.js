@@ -11,7 +11,10 @@ const arrayBuffer = binaryData.buffer.slice(binaryData.byteOffset, binaryData.by
 console.log(arrayBuffer);
 console.log(arrayBuffer.byteLength); // 输出 ArrayBuffer 的字节长度
 
-mydemo.createReversedBinaryStreamAsync(arrayBuffer)
+const initialArray = new Uint8Array([1, 2, 3, 4, 5]); // 创建并初始化一个 Uint8Array
+const buffer = initialArray.buffer;
+
+mydemo.createReversedBinaryStreamAsync(buffer)
     .then((reversedBinaryStream) => {
         console.log(reversedBinaryStream); 
         console.log(reversedBinaryStream.length);
