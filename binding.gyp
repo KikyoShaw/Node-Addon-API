@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "democpp",
+      "target_name": "callbacke",
       "sources": [
         "democpp.cc"
       ],

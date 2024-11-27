@@ -1,2 +1,2 @@
-const cal=require("./build/Release/cal.node");
-console.log(cal.add(1,3));
+const a=require("./build/Release/cal.node");
+console.log(a.add(1,3));
