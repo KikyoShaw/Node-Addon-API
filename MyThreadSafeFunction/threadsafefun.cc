@@ -36,7 +36,7 @@ Napi::Value StartThread(const Napi::CallbackInfo &info){
         1 //只有一个线程可以同时调用
         // [](Napi::Env env, void* finalizeData, void* data){
         //     delete reinterpret_cast<int*>(data);
-        // }
+        // } //可选的析构函数
     );
 
     std::thread t(WorkerThread, tf);
