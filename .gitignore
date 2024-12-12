@@ -10,5 +10,7 @@
 /MyDemo/node_modules/*
 /MyCallBack/build/*
 /MyCallBack/node_modules/*
+/MyThreadSafeFunction/build/*
+/MyThreadSafeFunction/node_modules/*
 /build/*
 /node_modules/*

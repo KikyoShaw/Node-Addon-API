@@ -1,5 +1,13 @@
 #include <napi.h>
 
+// Napi::Value: 表示泛型 JavaScript 值的基类。
+// Napi::Object: 表示 JavaScript 对象。
+// Napi::Array: 表示 JavaScript 数组。
+// Napi::String: 表示 JavaScript 字符串。
+// Napi::Number: 表示 JavaScript 数字。
+// Napi::Boolean: 表示 JavaScript 布尔值。
+// Napi::Function: 表示 JavaScript 函数。
+
 // 这个函数将在C++代码中被当作回调函数调用
 void CallJsCallback(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
